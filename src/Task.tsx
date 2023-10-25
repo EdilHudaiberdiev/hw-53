@@ -2,7 +2,6 @@ import React from 'react';
 
 
 interface Props {
-  id: string;
   task: string;
   onDeleteTask: React.MouseEventHandler;
 }
